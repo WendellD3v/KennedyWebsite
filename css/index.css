@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-color: #585858 transparent;
+}
+
+body{
+    background-color: #2C2C2C;
+}
+
+/* Menu */
+
+header{
+    width: 100%;
+    background-color: #2C2C2C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-imagem {
+    margin-left: 50px;    
+}
+
+.logo-imagem img {
+    width: 60px;
+    height: 60px;
+}
+
+.menu{
+    margin-right: 50px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.menu li a{
+    font-family: 'Future Tense';
+    font-size: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.menu li a:hover{
+    color: rgb(255, 255, 0);
+}
+
+/* Banner */
+
+.container-banner img{
+    width: 100%;
+}
+
+/* Products */
+
+.container-products{
+    margin-left: 200px;
+}
+
+.products-type h1{
+    font-family: 'Future Tense';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 25px;
+}
+
+.product{
+    display: inline-block;
+}
+
+.title{
+    position: absolute;
+    background-color: #474747;
+
+    width: 263px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+.title h2{
+    font-family: 'Future Tense';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+.image-product img{
+    width: 252px;
+    height: 140px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+/* Botao Detalhes */
+
+
+.details-button{
+    font-family: 'Future Tense';
+    font-size: 12px;
+    width: 128px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #2C2C2C;
+    border: 1px solid #666666;
+    border-radius: 10px;
+
+    margin-left: 15px;
+}
+
+.details-button:hover{
+    color: rgb(255, 255, 0);
+    border: 1px solid rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+/* Botao Comprar */
+
+.buy-button{
+    font-family: 'Future Tense';
+    font-size: 12px;
+    width: 128px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #33442B;
+    border: none;
+    border-radius: 10px;
+}
+
+.buy-button:hover{
+    color: #FFFFFF;
+    background-color: #40702A;
+    cursor: pointer;
+}
+
+/* Copryth */
+.container-copy{
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    background-color: #474747;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copy-info li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 20px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.copy-logo img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
